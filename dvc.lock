@@ -1,0 +1,8 @@
+extract-code2seq-java-large-test:
+  cmd: tar -xzf datasets/code2seq-java-large-test.tar.gz
+  deps:
+  - path: datasets/code2seq-java-large-test.tar.gz
+    md5: d775f9d64c011928dffa842061ebaf97
+  outs:
+  - path: datasets/code2seq-java-large-test
+    md5: 620eae76ea39319720ca9fbd8ce7cc43.dir
