@@ -1,8 +1,8 @@
 stages:
   extract-code2seq-java-large-test:
-    cmd: tar -xzf datasets/code2seq-java-large-test.tar.gz
+    cmd: unzip -q datasets/code2seq-java-large-test.zip -d datasets
     deps:
-    - datasets/code2seq-java-large-test.tar.gz
+    - datasets/code2seq-java-large-test.zip
     outs:
     - datasets/code2seq-java-large-test:
         cache: false
